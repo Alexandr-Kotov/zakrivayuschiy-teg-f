@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --family-inter: 'Inter';
+  --family-PressStart2P: 'PressStart2P';
+  --text-wight: 400;
+  --subtitle-wight: 700;
+  --color-background: rgba(255, 255, 255, 1);
+  --color-accent: rgba(0, 0, 0, 1);
+  --repeating-gradient: #d3d3d3;
+  --linear-gradient-first: #e7e7e7;
+  --linear-gradient-second: #1a1a1a;
+  --size-title-header: 65px;
+  --size-subtitle-header: 23px;
+  --size-button-header: 14px;
+}
