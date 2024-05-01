@@ -13,4 +13,6 @@
   --size-title-header: 65px;
   --size-subtitle-header: 23px;
   --size-button-header: 14px;
+  --color-sparks: rgba(255, 0, 0, 1);
+  --button-hover: rgba(255, 255, 255, 1);
 }

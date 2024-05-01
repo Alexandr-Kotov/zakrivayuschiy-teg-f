@@ -12,6 +12,7 @@
   --repeating-gradient: #000;
   --linear-gradient-first: #007f0c;
   --linear-gradient-second: #004306;
+  --button-hover: rgba(0, 204, 20, 1);
 }
 
 :root.theme-light{
@@ -22,6 +23,7 @@
   --repeating-gradient: #d3d3d3;
   --linear-gradient-first: #e7e7e7;
   --linear-gradient-second: #1a1a1a;
+  --button-hover: rgba(255, 255, 255, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,5 +35,6 @@
     --repeating-gradient: #000;
     --linear-gradient-first: #007f0c;
     --linear-gradient-second: #004306;
+    --button-hover: rgba(0, 204, 20, 1);
   }
 }
