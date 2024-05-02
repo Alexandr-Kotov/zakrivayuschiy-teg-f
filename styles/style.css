@@ -112,7 +112,8 @@
 
 .block__list {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .block__item {
@@ -128,7 +129,7 @@
 }
 
 .card__subtitle {
-  margin: 3px 0 3px 10px;
+  margin: 3px 10px 3px 10px;
   color: var(--color-accent);
   font-family: var(--family-inter);
   font-weight: var(--subtitle-wight);
@@ -167,7 +168,10 @@
 } 
 
 .card__image {
-
+  min-inline-size: 700px;
+  max-block-size: 700px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card__content {
@@ -187,7 +191,7 @@
   margin-block-end: 27px;
 }
 
-.button__text {
+.card__container-button {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -230,13 +234,16 @@
 
 .card__icon-button {
   height: 38px;
-  border: none;
   border: 2px solid transparent;
   padding: 0;
   background-color: transparent;
   transition: 0.3s ease;
   cursor: pointer;
 }
+
+.heart {
+  transform-origin: center center;
+} 
 
 .card__icon-button:focus {
   outline: none;
@@ -383,4 +390,53 @@
   text-transform: uppercase;
   inline-size: 293px;
   block-size: 38px;
+}
+
+@media (width <= 600px) {
+  .header__title {
+    font-size: var(--size-title-header-mobile);
+  }
+
+  .header__subtitle {
+    font-size: var(--size-subtitle-header-mobile);
+  }
+}
+
+@media (width <= 376px) {
+  .header {
+    max-inline-size: 371px;
+    min-block-size: 323px;
+  }
+
+  .button__save {
+    margin-block-end: 100px;
+    inline-size: 306px;
+    block-size: 84px;
+  }
+
+  .card__content {
+    max-inline-size: 321px;
+  }
+
+  .footer__floppy {
+    width: 28px;
+    height: 28px;
+  }
+
+  .button__save {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dialog__container {
+    margin: 30px 42px;
+    max-inline-size: 257px;
+  }
+  
+  .dialog__button {
+    inline-size: 257px;
+  }
 }
