@@ -24,4 +24,4 @@
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/JQhPLs2COLIeZtAtlsBS34/%238-%3C%2Fзакрывающий-тег%3E?type=design&node-id=801-1594&mode=design&t=lcePUxSguIqBjGKV-0)
 
-* [Ссылка на сайт Посмотри в окно](https://alexandr-kotov.github.io/zakrivayuschiy-teg-f/)
+* [Ссылка на сайт Закрывающий тег](https://alexandr-kotov.github.io/zakrivayuschiy-teg-f/)
