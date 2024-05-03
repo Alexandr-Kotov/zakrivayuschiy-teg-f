@@ -1,13 +1,13 @@
 :root {
-  --family-inter: 'Inter';
-  --family-PressStart2P: 'PressStart2P';
+  --family-mian: 'Inter', sans-serif;
+  --family-accent: 'PressStart2P', fantasy;
   --text-wight: 400;
   --subtitle-wight: 700;
   --color-background: rgba(255, 255, 255, 1);
   --color-accent: rgba(0, 0, 0, 1);
   --repeating-gradient: #d3d3d3;
-  --linear-gradient-first: #e7e7e7;
-  --linear-gradient-second: #1a1a1a;
+  --linear-gradient-light: #e7e7e7;
+  --linear-gradient-dark: #1a1a1a;
   --size-logo-header: 65px;
   --size-logo-header-mobile: 49px;
   --size-title-header: 23px;

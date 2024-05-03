@@ -4,8 +4,8 @@
   --text-wight: 465;
   --subtitle-wight: 785;
   --repeating-gradient: #000;
-  --linear-gradient-first: #007f0c;
-  --linear-gradient-second: #004306;
+  --linear-gradient-light: #007f0c;
+  --linear-gradient-dark: #004306;
   --button-hover: rgba(0, 204, 20, 1);
 }
 
@@ -15,8 +15,8 @@
   --text-wight: 400;
   --subtitle-wight: 700;
   --repeating-gradient: #d3d3d3;
-  --linear-gradient-first: #e7e7e7;
-  --linear-gradient-second: #1a1a1a;
+  --linear-gradient-light: #e7e7e7;
+  --linear-gradient-dark: #1a1a1a;
   --button-hover: rgba(255, 255, 255, 1);
 }
 
@@ -27,8 +27,8 @@
     --text-wight: 465;
     --subtitle-wight: 785;
     --repeating-gradient: #000;
-    --linear-gradient-first: #007f0c;
-    --linear-gradient-second: #004306;
+    --linear-gradient-light: #007f0c;
+    --linear-gradient-dark: #004306;
     --button-hover: rgba(0, 204, 20, 1);
   }
 }
